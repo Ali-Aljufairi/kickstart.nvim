@@ -7,6 +7,6 @@ if vim.g.vscode then
   vim.cmd 'source $HOME/.config/nvim/vscode/scope.vim'
 else
   -- Ordinary Neovim
-  require 'base' -- Load base configuration
+  require 'base' -- Load vimrc  
 end
 
